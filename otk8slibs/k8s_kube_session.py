@@ -1,8 +1,5 @@
 from kubernetes import  config
 
-
-
-
 def _create_k8s_session(k8s_context=None):
     
     if k8s_context:
